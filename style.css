@@ -1,0 +1,59 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: rgb(16, 30, 221); 
+}
+
+.faded {
+  color: rgba(6, 87, 26); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("newbeginnings.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: rgb(6, 87, 26);
+  border-color: rgb(9, 20, 170); }
+
+.btn-primary:hover {
+  background-color: #af1207;
+  border-color: #545756;
+  border-width: 52x;
+  cursor: pointer;
+}
+  
